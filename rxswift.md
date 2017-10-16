@@ -36,3 +36,48 @@ func on(event: Event<E>) {
 ```
 
 > observae  send complete or error  all the resources used to manage subscription are disposed of automatically. 
+
+
+
+### ignoring  operation
+
+**ignore** : it discards all elements
+of the source sequence and lets through only .completed or .error.
+
+![](http://ohbzayk4i.bkt.clouddn.com/17-10-12/63382394.jpg)
+
+
+
+
+
+**elementAt**
+
+![](http://ohbzayk4i.bkt.clouddn.com/17-10-12/29335649.jpg)
+
+### filter
+
+![](http://ohbzayk4i.bkt.clouddn.com/17-10-12/53416087.jpg)
+
+### ignore
+
+> filter all elements within the specifiied time interval
+
+![](http://ohbzayk4i.bkt.clouddn.com/17-10-16/90260219.jpg)
+
+
+
+### take operation
+
+#### take: will take the number of element you specified
+
+![](http://ohbzayk4i.bkt.clouddn.com/17-10-16/61603235.jpg)
+
+#### takeLast: take from the end of source of sequence
+
+
+
+
+
+
+
+#### takewill: take until the  sequences cant satisfy the conditon 
